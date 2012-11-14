@@ -1,0 +1,5 @@
+TODO
+----
+ - Passar todo para o padrao W3C
+ - Corrigir bugs
+ - Utilizar um framework para facilitar o desenvolvimento para outros bancos de dados

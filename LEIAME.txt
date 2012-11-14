@@ -1,0 +1,40 @@
+wPonto - v. 0.1
+-----------------
+
+  1) O que é?
+     --------
+    - Um fork do projeto original chamado SisPonto, o wPonto é um sistema para controle de acesso dos funcionários de forma simples e prática.
+      Cada funcionário tem um login e uma senha, que ao chegar na empresa, informa-se esses dados e o ponto é registrado na base.
+      Toda saída e entrada tambem sendo informada... permite a impressão de relatórios ao fim do mês.
+      O sistema, por usar PHP+POSTGRESQL+APACHE, permite que seja instalada uma base apenas para o gerenciamento de várias unidades da empresa, espalhadas por outras regiões.
+
+   2) Como surgiu?
+      ------------
+     - Insatisfeito com o processo de disponibilização do código do SisPonto, resolvi fazer um novo projeto que facilitasse a vida dos desenvolvedores.
+
+   3) Futuras Implementações
+      ----------------------
+     - Veja TODO.txt
+
+   4) Instalação
+      ----------
+     - Veja INSTALAR.txt
+  
+   5) Agradecimentos
+      --------------
+     - Quando eu procurava por uma ferramenta dessas na internet a mais parecida com o que eu queria foi a 
+       PHP Timeclock (Version 0.9.4-1) - http://sourceforge.net/projects/timeclock, por�m era muito simples 
+       (mais do que o SisPonto) e n�o tinha op��es como multi-unidades, relatorios por unidades,  etc.. 
+       A principio resolvei adicionar ao codigo deles... mas achei melhor come�ar um do zero, POREM, o 
+       layout (left, top, main) e o security.php foram retirados do TimeClock.
+
+   6) Como contribuir?
+      ---------------
+    
+     - Mande um email para ivan@fuzzer.com.br e ficarei grato por sua ajuda!
+
+    
+
+[]'s
+Ivan Brasil Fuzzer
+ivan@fuzzer.com.br

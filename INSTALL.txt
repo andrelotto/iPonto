@@ -1,0 +1,19 @@
+Instalação
+----------
+
+    1) Se você esta lendo esse arquivo é por que você já desempacotou o arquivo wponto-0.1.tar.gz , aconselha-se desenpacotá-lo em uma pasta root do seu apache,
+       por exemplo /var/www/wponto/
+    2) Crie um usuário no postgresql (de preferencia, wponto) e logo em seguida, crie uma base de dados, tb chamada de wponto (caso voce mude o nome da base, usuário e senha, que tambem por padrao é wponto, você precisa editar o arquivo common.php dentro de conf/. 
+    3) Certifique-se que a base, usuario e senha e host ($_HOST, $_DB, $_USER e $_PASS) estao bem configurados em conf/common.php.
+    4) Execute o script estrutura_base.sql dentro da pasta sql/ (sql/estrutura_base.sql).
+    5) Configure um usuário e senha dentro de conf/common.php ($_LOGIN_ADM e $_PASS_ADM) para ter acesso a sessão administrativa do sistema!
+    6) Configure no conf/common.php as variaveis ditas GLOBAIS, como $_ADM, $_EMAIL, $_URL (APENAS A URL PARA O SEU SISPONTO) e $_LOGO.
+    7) Acesse ele via browser (ex: http://seudominio/wponto/) e seu sistema de ponto deve estar no ar! :)
+
+OBS: - Cadastre uma unidade (os dados da sua empresa) na seção administrativa!
+     - Caso encontre algum bug, ou dificuldade ao instalar, por favor, envie um email, que terei o maior prazer em ajudá-lo!
+
+[]'s
+Ivan Brasil Fuzzer
+ivan at fuzzer dot com dot br
+    

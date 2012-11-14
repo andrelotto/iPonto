@@ -1,0 +1,231 @@
+.blue {
+	font-weight: none;
+	text-decoration: none;
+        color: #00589C;
+}
+.offwhitebold {
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #FCFCFF;
+}
+.leftrows {
+	background-color: #BEDFFF;
+	border: solid #FCFCFF;
+	border-width: 0px 1px 1px 1px;
+	padding-left: 10px;
+	  }
+.leftMain {
+	background-color: #FCFCFF;
+	border: solid #808088;
+	border-width: 1px 1px 1px 1px;
+	  }
+.rightMain {
+	background-color: #FCFCFF;
+	border: solid #808088;
+	border-width: 1px 1px 1px 1px;
+	   }
+.forphp {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 10px;
+}
+.forContent {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #FCFCFF;
+	padding-left: 10px;
+	    }
+.rowColor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #00589C;
+}
+a:active {
+	color: #656565;
+	text-decoration: none;
+	 }
+/* Estilos */
+*{
+    padding     : 0;
+    list-style  : none;
+    font-family : Tahoma, Arial, helvetica, Sans;
+}
+
+
+
+/* tags html */
+
+img {
+    border         : 0;
+    vertical-align : middle;
+}
+
+a{
+ text-decoration : none;
+ color :#89c0ff;
+}
+
+a:hover {
+  color: #BEDFFF;   
+ 
+}
+
+
+#erro {
+  float		: center;
+  color		: red;
+  width		: 500px;
+}
+
+#erro_titulo {
+  float         : center;
+  width         : 500px;
+  font-size	: 28px;
+}
+
+#erro_rodape {
+  float         : center;
+  width         : 500px;
+  font-size	: 12px;
+}
+
+#topo {
+  text-align	: right;
+  font-size	: 25px;
+  margin-top	: 10px;
+  width 	: 750px;
+  border-bottom	: 1px solid #ebebeb;
+}
+
+#topo_pag {
+  float		: center;
+  text-align    : left;
+  margin-top    : 10px;
+  width         : 90%;
+  font-size	: 16px;
+  border	: 0px solid #ebebeb;
+}
+
+#topo_pag1 {
+  float         : center;
+  text-align    : left;
+  width         : 90%;
+  font-size     : 24px;
+  border        : 0px solid #ebebeb;
+}
+
+
+#versao {
+  float		: center;
+  text-align	: left;
+  width		: 750px;
+  font-size 	: 12px;
+}
+
+#menu {
+  float		: center;
+  text-align	: left;
+  width		: 700px;
+  margin-top	: 30px;
+  font-size	: 16px;
+}
+
+#descmenu {
+  float         : left;
+  margin-left	: 60px;
+  margin-top	: -15px;
+  text-align    : left;
+  width		: 250px;
+  font-size	: 10px;
+}
+
+#msg_insert { 
+ width		: 300px;
+ float		: center;
+ margin-top	: 50px;
+ text-align	: center;
+}
+#titulo_tabela {
+  font-size		: 14px;
+}
+
+#titulo_form {
+  font-size		: 19px;
+  border-bottom		: 1px solid #ebebeb;
+  float 		: center;
+  width		        : 75%;
+}
+
+tr.listtop td {
+	background-color: #00589C; color: white;
+}
+#body_tabela {
+  font-size     : 12px;
+}
+
+
+
+/* classes genericas */
+
+.direita  { float : right; margin : 0; padding : 0; }
+
+.esquerda { float : left; margin : 0; padding : 0;  }
+
+/* Geral */
+#geral {
+    margin : auto;
+    width : 780px;
+    background  : #E1E1E1 url(../imgs/bg_site.png);
+}
+
+#cabecalho {
+    width       : 715px;
+    height      : 86px;
+    background  : #282D31;
+    float       : left;
+}
+
+#cabecalho .logomarca {
+    float       : left;
+    margin-left : 21px;
+    background  : #3C4348;
+    display     : block;
+}
+
+
+#menu ul {  
+    margin-left  : 21px;
+    margin-top   : 13px;
+}
+
+#menu ul li {  
+    display : inline; 
+}
+
+#menu ul li a {  
+    font-size       : 9pt;
+    letter-spacing  : 0.65pt;
+    padding         : 13pt;
+    margin          : 0px;
+    background      : #787F83;
+    color           : #EEEEEF;
+    font-weight     : bold;
+    text-decoration : none;
+    width           : 118px;
+}
+
+#menu ul li a:hover {
+    border-bottom   : 5pt solid #ED6E2D;
+    padding-bottom  : 9pt;
+    
+}
+
+input[type=text]:focus{
+  background-color: #fffeb8;
+}
+
+input[type=password]:focus{
+  background-color: #fffeb8;
+}
